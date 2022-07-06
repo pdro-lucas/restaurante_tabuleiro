@@ -1,0 +1,471 @@
+/* Configuração Geral */
+body {
+  font-size: 18px;
+  color: #8e6149;
+  font-family: 'Arapey', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arapey', serif;
+  text-transform: uppercase;
+}
+span {
+  font-size: 18px;
+}
+h1 {
+  font-size: 22px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  background-image: url('layout/titulo.png');
+  background-repeat: no-repeat;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-position: center;
+  color: #8e6149;
+}
+
+.container {
+  max-width: 1170px;
+}
+#espaco {
+  height: 50px;
+}
+.icon-bar {
+  color: red;
+  background-color: #85352e;
+}
+button {
+  border-color: red;
+}
+#botao {
+  border-color: #85352e;
+}
+.btn-primary {
+  background-image: url('layout/fundo-rodape.jpg');
+  border: 5px solid white;
+}
+.icon-bar {
+  color: white;
+  background: white;
+}
+/* Fim Configuração Geral */
+
+/* Apresentação */
+.apresentacao_tabuleiro {
+}
+/*Declaração inicial*/
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+/*Medias queries */
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+#apresentacao_tabuleiro {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+#apresentacao_tabuleiro h3 {
+  color: #595959;
+  font-size: 22px;
+  text-transform: none;
+  position: relative;
+  top: 0;
+}
+#apresentacao_tabuleiro h2 {
+  color: #595959;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+#historia-tabuleiro {
+  position: relative;
+  font-size: 17px;
+  top: -20px;
+  color: black;
+}
+#historia-tabuleiro a {
+  border: 1px solid #5a9d8d;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  position: relative;
+  top: 50px;
+  text-decoration: none;
+  color: #5a9d8d;
+  transition: 0.8s ease;
+}
+#historia-tabuleiro a:hover {
+  background-image: url('layout/fundo-rodape.jpg');
+  color: white;
+  border-color: #5a9d8d;
+}
+#apresentacao-servicos {
+  text-align: center;
+  transition: 0.9s ease;
+  margin-bottom: 50px;
+}
+#apresentacao-servicos a {
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  color: black;
+  transition: 0.8s ease;
+}
+@media (width: 768px) {
+  #apresentacao-servicos a {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.8s ease;
+  }
+}
+@media (width: 1024px) {
+  #apresentacao-servicos a {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.8s ease;
+  }
+}
+#apresentacao-servicos a:hover {
+  background-image: url('layout/fundo-rodape.jpg');
+  color: white;
+  border-color: white;
+}
+#apresentacao-servicos img {
+  transition: 0.8s ease;
+}
+#apresentacao-servicos img:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: img 0.9s ease;
+}
+#imagem-servicos1 {
+  background-image: url('layout/botao2_inferior.png');
+  height: 185px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/* Fim Apresentação */
+
+/* Topo e Menu  */
+.topo-menu {
+  height: 0px;
+  position: relative;
+  top: 60px;
+  z-index: 7000;
+}
+.topo-menu-interno {
+  height: 0px;
+  position: relative;
+  top: 60px;
+  z-index: 7000;
+}
+#topo-posicao {
+  height: 0;
+  z-index: 20000;
+}
+#fundo_topo_interno {
+  background-image: url('layout/fundo_topo_interno.jpg');
+  height: 226px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#topo-imagem {
+  position: relative;
+  top: -50px;
+  z-index: 5000;
+}
+.hr-topo {
+}
+.posicao-menu {
+  height: 0;
+  position: relative;
+  top: 80px;
+  z-index: 3000;
+}
+
+#tabuleiro-menu {
+}
+
+#barra-navegacao {
+  position: relative;
+  top: -15px;
+}
+
+.tabuleiro-link {
+  color: white;
+  transition: color 0.9s ease;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.tabuleiro-link:hover {
+  background: transparent;
+  font-weight: bolder;
+  color: white;
+  transition: color 0.9s ease;
+}
+
+.navbar-nav > li > a {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 13px;
+  padding-right: 13px;
+  text-align: center;
+  transition: background-color 0.9s ease;
+  transition: color 0.9s ease;
+}
+.navbar-nav > li > a:hover {
+  background: transparent;
+  color: white;
+}
+#tabuleiro-menu {
+  position: relative;
+  text-align: center;
+}
+.tabuleiro-submenu {
+  color: white;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #bcbcbc;
+  height: 25px;
+  width: 110px;
+  margin-left: 20px;
+}
+.tabuleiro-submenu a {
+  height: 40px;
+  margin-top: 20px;
+}
+.dropdown-menu > li > a {
+  color: #bcbcbc;
+  font-weight: bolder;
+  position: relative;
+  top: -10px;
+  text-align: center;
+}
+.dropdown-menu > li > a:hover {
+  background: transparent;
+  font-weight: bolder;
+  color: white;
+}
+#link-posicao {
+  position: relative;
+  font-size: 16px;
+}
+#hr-menu {
+  position: relative;
+  top: -30px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  content: '';
+  display: none;
+  position: absolute;
+  background-color: rgba(52, 17, 14, 0.5);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 140px;
+}
+.dropdown-menu:before {
+  /* Parte do Sub-menu que deixa o ícone em triângulo */
+  content: '';
+  display: block;
+  border-color: transparent transparent #34110e transparent;
+  border-style: solid;
+  border-width: 10px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.dropdown-menu a {
+  padding-bottom: 10px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+#margin-menu {
+  margin-left: 350px;
+}
+@media (width: 1024px) {
+  #margin-menu {
+    margin-left: 200px;
+  }
+  #barra-navegacao {
+    position: relative;
+    top: -15px;
+    left: -25px;
+  }
+}
+/* Fim Topo e Menu */
+
+/* Notícias Home */
+
+.destaque_item_foto {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background: linear-gradient(transparent, black);
+}
+.destaque_item_foto_interna {
+  width: 600px;
+  height: 400px;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background: linear-gradient(transparent, black);
+}
+.destaque_item_foto .imagem-noticia {
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: visible;
+}
+.destaque_item_foto .imagem-noticia:hover {
+  visibility: visible;
+  background-repeat: no-repeat;
+}
+
+/* Fim Notícias Home */
+
+/* Rodapé */
+.rodape-tabuleiro {
+  background-image: url('layout/fundo-rodape.jpg');
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 15px;
+}
+.rodape-tabuleiro h1 {
+  font-size: 18px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  text-transform: none;
+  background: none;
+  color: white;
+}
+#tabuleiro-ligue {
+  border: 1px solid white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  color: white;
+  width: 180px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.masterix {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: right;
+}
+/* Fim Rodapé */
+
+/* Nav Tabs */
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 4rem;
+}
+
+.nav-tabs > li > a {
+  color: #8e6149;
+}
